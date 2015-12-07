@@ -1,4 +1,22 @@
 # oslab
+项目缘起<br>
+
+哈尔滨工业大学《操作系统》课程实验指导手册、实验环境（64位支持）及源码<br>
+https://github.com/DeathKing/hit-oslab<br>
+操作系统之基础<br>
+http://mooc.study.163.com/course/HIT-1000002004#/info<br>
+实验楼操作系统原理与实践<br>
+https://www.shiyanlou.com/courses/115<br><br><br>
+
+项目原理<br>
+关键就是保住hit-oslab,hit-oslab建立在ubuntu上,我选择是用docker包住ubuntu<br>
+最后用ssh连接docker里的ubuntu,建立和实验楼一致命令行环境<br>
+
+项目后续<br>
+可以尝试在ubuntu里安装桌面,就不用ssh了?<br>
+
+这个页面需要美化.<br>
+
 我自己看了看下面的步骤,虽然繁琐,但是可控,网上文章较多,相比去自己编译bochs和配置.bxrc文件还是比较简单的<br>
 那我的mac电脑来说,遇到了不少问题,编译失败和repeat call floppy还有vga images wrong的还有bxrc问题的<br>
 用docker可以使用老师配置好的环境,这个与课程一致的,很重要.<br>
