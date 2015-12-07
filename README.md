@@ -26,16 +26,17 @@ Docker image to run hit-oslab on Linux, Windows, Mac os X<br>
 以下是docker镜像地址<br>  
 https://hub.docker.com/r/yamakasiluke/oslab/<br>  
 国内用户也可以痛快使用docker,速度很棒.<br>  
-进入https://www.daocloud.io/,点击下载,下载相应的docker版本.<br>  
+进入https://www.daocloud.io/,<br
+点击下载,下载相应的docker版本.<br>  
 window10安装docker可能出现问题,需要在bios里开启虚拟化,没有遇到就不用管了.<br>  
 之后安装docker hub加速器<br>
-按照步骤,在docker使用 dao pull yamakasiluke/oslab:oslab 速度很快<br><br>
+按照步骤,在docker使用 dao pull yamakasiluke/oslab:oslab 速度很快<br>
 下载完成后使用 docker run -it -p 1234:22 -d yamakasiluke/oslab:workwell /usr/sbin/sshd -D<br>
 你的本地ubuntu和sshd已经打开
 mac和windows请再virtalbox里把端口配置一下
 http://jingyan.baidu.com/article/414eccf67298a16b421f0a6d.html
 外面配置成50183<br>
-配置成1234<br>
+里面配置成1234<br>
 
 windows要安装putty http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html <br>
 xming http://sourceforge.net/projects/xming/files/Xming/<br>
