@@ -51,8 +51,8 @@ ssh要打开选项叫做xforwarding yes<br>
 ####配置docker端口
 
 #####windows 和 mac os x
-打开virtalbox,选中虚拟机->设置->网络->端口转发,修改主机端口和子系统端口,主机ip和子系统ip可以都为127.0.0.1<br>
-主机端口和系统端口都不能被占用,可以随意设置,我设置的主机端口为50183,子系统端口为1234<br>
+打开virtalbox,选中虚拟机->设置->网络->端口转发,修改主机端口和子系统端口,主机ip和子系统ip可以都为```127.0.0.1```<br>
+主机端口和系统端口都不能被占用,可以随意设置,我设置的主机端口为```50183```,子系统端口为```1234```<br>
 http://jingyan.baidu.com/article/414eccf67298a16b421f0a6d.html<br>
 http://unmi.cc/mac-os-x-experience-docker/<br>
 
