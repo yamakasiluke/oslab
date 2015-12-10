@@ -1,5 +1,6 @@
 # oslab
-Docker image to run hit-oslab on Linux, Windows, Mac os X<br> 
+Docker image to run hit-oslab on Linux, Windows, Mac os X
+
 项目缘起<br>
 
 哈尔滨工业大学《操作系统》课程实验指导手册、实验环境（64位支持）及源码<br>
