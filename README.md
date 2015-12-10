@@ -26,7 +26,7 @@ Docker image to run hit-oslab on Linux, Windows, Mac os X
 ###windows
 ####1.安装docker,并下载oslab的docker镜像
 国内用户也可以痛快使用docker,速度很棒。<br>  
-进入https://www.daocloud.io/。<br>
+进入https://www.daocloud.io/<br>
 *window10安装docker可能出现问题,需要在bios里开启虚拟化,没有遇到就不用管了*。<br> 
 之后安装docker hub加速器。<br>
 https://dashboard.daocloud.io/mirror<br>
