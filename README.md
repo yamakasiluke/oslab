@@ -7,7 +7,7 @@ Docker image to run hit-oslab on Linux, Windows, Mac os X
 
 ##项目缘起
 
-哈尔滨工业大学《操作系统》课程实验指导手册、实验环境（64位支持）及源码<br>
+哈尔滨工业大学《操作系统》课程实验指导手册、实验环境（64位支持）及源码
 [项目地址](https://github.com/DeathKing/hit-oslab)
 操作系统之基础<br>
 [地址](http://mooc.study.163.com/course/HIT-1000002004#/info)
