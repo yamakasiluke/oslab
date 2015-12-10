@@ -31,8 +31,7 @@ Docker image to run hit-oslab on Linux, Windows, Mac os X
 之后安装docker hub加速器<br>
 https://dashboard.daocloud.io/mirror<br>
 按照步骤,通过docker hub加速器使用 ```dao pull yamakasiluke/oslab:oslab``` 速度很快<br>
-以下是oslab的docker镜像地址<br>  
-https://hub.docker.com/r/yamakasiluke/oslab/<br>  
+[oslab的docker镜像地址](https://hub.docker.com/r/yamakasiluke/oslab/)  
 
 ###2.下载安装可视化窗口程序和ssh程序
 ####windows<br>
@@ -61,6 +60,8 @@ http://unmi.cc/mac-os-x-experience-docker/<br>
 oslab镜像里已经打开了sshd的22端口<br>
 ssh_config添加port 1234<br>
 请确保容器暴露的端口没有被占用,我这里是1234<br>
+
+####启动oslab
 启动oslab,并默认打开容器的sshd服务<br>
 ```docker run -it -p 1234:22 -d yamakasiluke/oslab:oslab /usr/sbin/sshd -D```<br>
 
@@ -70,17 +71,17 @@ ssh_config添加port 1234<br>
 http://david-je.iteye.com/blog/1847417<br>
 需要设置好putty的参数<br>
 ```ssh -X root@127.0.0.1 -p 50183```
-登录密码为oslab<br>
+登录密码为```oslab```<br>
 
 #####mac os x
 设置好ssh_config<br>
 http://apple.tgbus.com/news/class/200901/20090110095747.shtml<br>
 ```ssh -X root@127.0.0.1 -p 50183```<br>
-登录密码为oslab<br>
+登录密码为```oslab```<br>
 
 #####linux
 ```ssh -X root@127.0.0.1 -p 1234```<br>
-登录密码为oslab<br>
+登录密码为```oslab```<br>
 
 一切顺利就可以调试了,docker很好用,rtfsc<br>
 
