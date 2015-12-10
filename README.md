@@ -1,7 +1,7 @@
 # oslab
 Docker image to run hit-oslab on Linux, Windows, Mac os X
 
-项目缘起<br>
+##项目缘起
 
 哈尔滨工业大学《操作系统》课程实验指导手册、实验环境（64位支持）及源码<br>
 https://github.com/DeathKing/hit-oslab<br>
@@ -10,11 +10,13 @@ http://mooc.study.163.com/course/HIT-1000002004#/info<br>
 实验楼操作系统原理与实践<br>
 https://www.shiyanlou.com/courses/115<br>
 
-项目原理<br>
+##项目原理
 关键就是保住hit-oslab,hit-oslab建立在ubuntu上,我选择是用docker虚拟机包住ubuntu<br>
 最后用ssh连接docker里的ubuntu,建立和实验楼一致命令行环境<br>
 
-1.安装docker,并下载oslab的docker镜像
+##具体步骤
+
+###1.安装docker,并下载oslab的docker镜像
 国内用户也可以痛快使用docker,速度很棒.<br>  
 进入https://www.daocloud.io/,<br>
 下载相应的docker版本.<br> 
@@ -23,12 +25,10 @@ window10安装docker可能出现问题,需要在bios里开启虚拟化,没有遇
 https://dashboard.daocloud.io/mirror<br>
 按照步骤,通过docker hub使用 dao pull yamakasiluke/oslab:oslab 速度很快<br>
 
-以下是docker镜像地址<br>  
+以下是oslab的docker镜像地址<br>  
 https://hub.docker.com/r/yamakasiluke/oslab/<br>  
 
-windows和mac os x步骤<br>
-
-2.下载安装可视化窗口程序和ssh程序<br>
+###2.下载安装可视化窗口程序和ssh程序
 windows<br><br>
 xming http://sourceforge.net/projects/xming/files/Xming/<br>
 windows要安装putty http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html<br>
@@ -41,7 +41,7 @@ linux<br><br>
 您都用linux了,肯定很清楚.<br>
 下载X11和openssh<br><br>
 
-3.配置docker端口,启动oslab,并用命令行连接<br>
+###3.配置docker端口,启动oslab,并用命令行连接<br>
 
 配置docker端口<br>
 
