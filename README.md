@@ -45,7 +45,7 @@ http://jingyan.baidu.com/article/414eccf67298a16b421f0a6d.html<br>
 
 #####启动oslab
 启动oslab,并默认打开容器的sshd服务。<br>
-`docker run -it -p 1234:22 -d yamakasiluke/oslab:oslab /usr/sbin/sshd -D`<br>
+`docker run -it -p 1234:22 -d --privileged yamakasiluke/oslab:oslab /usr/sbin/sshd -D`<br>
 
 #####命令行连接
 用putty和xming连接自己的实验环境。<br>
@@ -75,7 +75,7 @@ http://unmi.cc/mac-os-x-experience-docker/<br>
 
 #####启动oslab
 启动oslab,并默认打开容器的sshd服务。<br>
-`docker run -it -p 1234:22 -d yamakasiluke/oslab:oslab /usr/sbin/sshd -D`<br>
+`docker run -it -p 1234:22 -d --privileged yamakasiluke/oslab:oslab /usr/sbin/sshd -D`<br>
 
 #####命令行连接
 设置好ssh_config。<br>
@@ -103,7 +103,7 @@ ssh_config添加port 1234。<br>
 
 #####启动oslab
 启动oslab,并默认打开容器的sshd服务。<br>
-`docker run -it -p 1234:22 -d yamakasiluke/oslab:oslab /usr/sbin/sshd -D`<br>
+`docker run -it -p 1234:22 -d --privileged yamakasiluke/oslab:oslab /usr/sbin/sshd -D`<br>
 
 #####命令行连接
 `ssh -X root@127.0.0.1 -p 1234`登录密码为`oslab`。<br>
