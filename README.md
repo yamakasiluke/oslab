@@ -60,7 +60,9 @@ http://david-je.iteye.com/blog/1847417<br>
 之后安装docker hub加速器。<br>
 https://dashboard.daocloud.io/mirror<br>
 按照步骤,通过docker hub加速器使用 `dao pull yamakasiluke/oslab:oslab` 速度很快。<br>
+![docker images](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/mac_docker_images.png) <br>
 [oslab的docker镜像地址](https://hub.docker.com/r/yamakasiluke/oslab/) <br>
+
 
 ####2.下载安装可视化窗口程序和ssh程序
 mac要安装xquartz http://www.xquartz.org/<br>
@@ -68,13 +70,16 @@ ssh要打开选项叫做xforwarding yes<br>
 
 ####3.配置docker端口,启动oslab,并用命令行连接
 #####配置docker端口
+![配置docker端口](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/mac_net.png) <br>
 打开virtalbox,选中虚拟机->设置->网络->端口转发,修改主机端口和子系统端口,主机ip和子系统ip可以都为`127.0.0.1`。<br>
+![配置docker端口](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/mac_50183.png) <br>
 主机端口和系统端口都不能被占用,可以随意设置,我设置的主机端口为`50183`,子系统端口为`1234`。<br>
 http://jingyan.baidu.com/article/414eccf67298a16b421f0a6d.html<br>
 http://unmi.cc/mac-os-x-experience-docker/<br>
 
 #####启动oslab
 启动oslab,并默认打开容器的sshd服务。<br>
+![启动docker](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/mac_docker_run.png) <br>
 `docker run -it -p 1234:22 -d --privileged yamakasiluke/oslab:oslab /usr/sbin/sshd -D`<br>
 
 #####命令行连接
