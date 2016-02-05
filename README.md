@@ -23,13 +23,13 @@ Docker image to run hit-oslab on Linux, Windows, Mac os X
 最后用ssh连接docker里的ubuntu,建立和实验楼一致命令行环境。<br>
 
 ##目录
-* [windows](/#win)
-* [mac os X](/#win)
-* [linux](/#win)
+* [windows]
+* [mac os X]
+* [linux]
 
 ##具体步骤
 
-###windows(#win)
+###windows
 ####1.安装docker,并下载oslab的docker镜像
 国内用户也可以痛快使用docker,速度很棒。<br>  
 进入https://www.daocloud.io/<br>
@@ -67,7 +67,7 @@ http://david-je.iteye.com/blog/1847417<br>
 windows成功<br>
 ![windows success](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/windows_sucess.PNG) <br>
 
-###mac os X(#mac)
+###mac os X
 ####1.安装docker,并下载oslab的docker镜像
 国内用户也可以痛快使用docker,速度很棒。<br>  
 进入https://www.daocloud.io/<br>
@@ -111,7 +111,7 @@ mac环境成功<br>
 ![./run](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/mac_ssh_ok.png) <br>
 ![bochs success](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/mac_success.png) <br>
 
-###linux(#linux)
+###linux
 ####1.安装docker,并下载oslab的docker镜像
 国内用户也可以痛快使用docker,速度很棒。<br>  
 进入https://www.daocloud.io/<br>
