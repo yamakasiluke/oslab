@@ -1,3 +1,5 @@
+
+
 # oslab
 Docker image to run hit-oslab on Linux, Windows, Mac os X
 
@@ -49,7 +51,7 @@ windows要安装putty http://www.chiark.greenend.org.uk/~sgtatham/putty/download
 ####3.配置docker端口,启动oslab,并用命令行连接
 #####配置docker端口
 ![VM设置](https://raw.githubusercontent.com/yamakasiluke/oslab/master/img/input_output.PNG) <br>
-打开virtalbox,选中虚拟机->设置->网络->端口转发,修改主机端口和子系统端口,主机ip和子系统ip可以都为`127.0.0.1`。<br>
+打开VirtualBox,选中虚拟机->设置->网络->端口转发,修改主机端口和子系统端口,主机ip和子系统ip可以都为`127.0.0.1`。<br>
 主机端口和系统端口都不能被占用,可以随意设置,我设置的主机端口为`50183`,子系统端口为`1234`。<br>
 http://jingyan.baidu.com/article/414eccf67298a16b421f0a6d.html<br>
 
@@ -145,6 +147,3 @@ ssh_config添加port 1234。<br>
 那我的mac电脑来说,遇到了不少问题,编译失败和repeat call floppy还有vga images wrong的还有bxrc问题的。<br>
 用docker可以使用老师配置好的环境,这个与课程一致的,很重要。<br>
 用了这个方法至少可以保证可用。<br>
-
-
-
